@@ -192,11 +192,9 @@ li{
 
 /* block -- 3 -1*/
 #sub1-block3{
-    border: 2px solid;
     background-color: #ff7b00;
 }
 #sub2-block3{
-    border: 2px solid;
     background-color: #f0f06d;
 }
 #swastik-college{
@@ -443,6 +441,7 @@ footer p{
         text-decoration: underline 0.1rem;
         font-size: 3.5vw;
         word-spacing: 0.3rem;
+        margin-top: 1vh;
     }
 
     #block4-list li span{
