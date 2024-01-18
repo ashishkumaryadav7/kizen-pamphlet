@@ -1,0 +1,673 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* max-width: 800px; */
+    margin: auto;
+    width: 50vw;
+}
+
+.whole-color{
+    background-color: purple;
+}
+
+.heading{
+    color: white;
+    font-family: 'Alegreya', serif;
+    font-weight: 800;
+    /* border: 2px solid; */
+    /* font-size: 4rem; */
+}
+.kizen{
+    font-size: 4vw;
+}
+
+span{
+    font-size: 5vw;
+}
+
+/* heading paragraph  */
+.head-paragrapgh{
+    color: white;
+    font-size: 1.4vw;
+}
+
+.head-para-block{
+    position: relative;
+}
+
+#head-para{
+    position: absolute;
+    top: -6vh;
+}
+
+
+/* after head note*/
+.after-head-note{
+    background-color: yellow;
+    font-size: 1.5vw ;
+    font-weight: 700;
+}
+
+/*block-2*/
+.block-2{
+    color: white;
+}
+
+.block-2 table{
+    color: white;
+}
+
+/*----------------- table - start ------------------*/
+#section-table{
+    width: 100%;
+    border: 2px solid;
+    
+}
+
+/*Table heading*/
+
+.t-heading{
+    font-size: 1.3vw;
+}
+
+#t-sub-head{
+    color: yellow;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+/*table data color*/
+#tb-data{
+    color: white;
+}
+
+.td-para{
+    margin-left: 1vw;
+}
+
+/*lining inside the table*/
+.hr{
+    width: 14vw;
+    height: 2px !important;
+    margin: auto;
+}
+
+
+#custom-size-col1{
+    border-right: 2px solid;
+    border-color: white;
+    /* width: 120px; */
+}
+
+#custom-size-col2{
+    padding-left: 2vw;
+}
+
+.td-para{
+    font-size: 0.8vw;
+}
+.td-value{
+    font-size: 0.8vw;
+}
+.td-yh{
+    font-size: 1.1vw;
+}
+/*------------------table - end---------------------*/
+
+/*section-other-services*/
+#section-other-services{
+    position: absolute;
+    top: -2vh;
+    width: 100%;
+}
+
+#section-other-services h5{
+    color: yellow;
+    font-size: 2.6vw;
+    text-decoration: underline 1px;
+    margin-bottom: 0;
+}
+
+#other-services{
+    list-style-position: inside;
+    color: white;
+}
+::marker {
+    font-size: 1vw;
+}
+
+
+#other-services li span{
+    /* word-spacing: 0.1vw; */
+    font-size: 1vw;
+    font-weight: 500;
+}
+li{
+    height: 1.2rem;
+}
+
+.b2-1{
+    height: fit-content;
+}
+
+.b2-2{
+    /* border: 2px solid white; */
+    position: relative;
+    height: 15rem;
+}
+
+/*section-block - 2 note*/
+.block-2-note-part{
+    background-color: #3e0c0c;
+    color: white;
+}
+#Android-block ul{
+    list-style-position: inside;
+}
+
+#Android-block ul li span{
+    margin-left: -0.8vw;
+    font-size: 1.4vw;
+    font-weight: 700;
+}
+
+
+#Ethical-block ul{
+    list-style-position: inside;
+}
+
+#Ethical-block ul li span{
+    margin-left: -0.8vw;
+    font-size: 1.4vw;
+    font-weight: 700;
+}
+
+/* block -- 3 -1*/
+#sub1-block3{
+    border: 2px solid;
+    background-color: #ff7b00;
+}
+#sub2-block3{
+    border: 2px solid;
+    background-color: #f0f06d;
+}
+#swastik-college{
+    color: rgb(43, 0, 255);
+    text-shadow: 2px 0 3px white;
+    font-weight: bolder;
+}
+#swastik-college h1{
+    font-size: 2vw;
+}
+
+#of{
+    text-shadow: 2px 0 3px white;
+}
+#of h2{
+    font-size: 2vw;
+}
+#management{
+    color: white;
+    text-shadow: 2px 1px 1px black;
+}
+#management h3{
+    font-size: 1.7vw;
+}
+
+#explore{
+    color: rgb(12, 109, 3);
+    font-family: 'Kaushan Script', cursive;
+    text-shadow: 2px 0 2px white;
+    font-size: large;
+}
+#explore p{
+    font-size: 1vw;
+}
+
+/*block-- 3 - 2*/
+
+.Regular h1 span{
+    font-size: 1.5vw;
+    color: rgb(83, 59, 160);
+    text-decoration: underline 0.1rem;
+    font-weight: bolder;
+}
+#sub2-content-list li span h3{
+    font-size: 1.2vw;
+    text-decoration: underline 0.1rem;
+}
+#sub2-content-list p{
+    color: red;
+    font-size: 0.9vw;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+/*block -- 4*/
+#block4-note h1{
+    color: yellow;
+    text-decoration: underline 0.1rem;
+    font-size: 2.5vw;
+    word-spacing: 0.2rem;
+    font-weight: bolder;
+}
+
+#block4-list{
+    color: white;
+    list-style-position: inside;
+}
+#block4-list li span{
+    font-size: 1.1vw;
+}
+#block4-list p{
+    font-size: 1.1vw;
+    margin-bottom: 0;
+}
+
+/*queto-blocks*/
+#quotes-block1{
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: white;
+    color: red;
+    font-weight: 600;
+    font-size: 0.36rem;
+}
+#quotes-block2{
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: white;
+    color: red;
+    font-weight: 600;
+    font-size: 0.36rem;
+}
+
+#quotes-block3{
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: white;
+    color: red;
+    font-weight: 600;
+    font-size: 0.36rem;
+}
+
+#quotes-block4{
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: white;
+    color: red;
+    font-weight: 600;
+    font-size: rem;
+}
+.qt{
+    font-size: 1vw;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+/*footer block*/
+footer{
+    background-color: yellow;
+    font-weight: 700;
+}
+footer p{
+    margin-bottom: 0;
+    font-size: 1vw;
+}
+
+
+
+@media only screen and (max-width: 800px){
+    body{
+        width: 100%;
+    }
+
+    .kizen{
+        font-size: 8vw;
+    }
+    span{
+        font-size: 10vw;
+    }
+
+    /* heading paragraph*/
+    .head-paragrapgh{
+        font-size: 2.5vw;
+    }
+
+    #head-para{
+        top: -4vh;
+    }
+
+    /* after the head section small notes  */
+    .after-head-note{
+        font-size: 2.8vw ;
+        font-weight: 700;
+    }
+
+    .b2-2{
+        height: 27vh;
+    }
+    /*----------------- table - start ------------------*/
+    #section-table{
+        width: 110%;
+    }
+
+    /*Table heading*/
+
+    .t-heading{
+        font-size: 2.8vw;
+    }
+    .td-para{
+        margin-left: 2.5vw;
+        font-size: 1.9vw;
+    }
+
+    /*lining inside the table*/
+    .hr{
+        width: 90%;
+        height: 2px !important;
+        margin: auto;
+    }
+
+    #custom-size-col2{
+        padding-left: 4vw;
+    }
+    .td-value{
+        font-size: 2.3vw;
+    }
+    .td-yh{
+        font-size: 2.7vw;
+    }
+    /*------------------table - end---------------------*/
+
+    /*other services*/
+    li{
+        height: 3vh;
+    } 
+
+   
+    #section-other-services h5{
+        font-size: 3.5vw;
+        text-decoration: underline 2px;
+    }
+    
+    ::marker {
+        font-size: 1.5vw;
+    }
+    
+    
+    #other-services li span{
+        word-spacing: 0.3vw;
+        font-size: 2vw;
+        font-weight: 500;
+    }
+
+    /*block - 3 - 1*/
+    #swastik-college h1{
+        font-size: 3vw;
+    }
+    
+    #of h2{
+        font-size: 3vw;
+    }
+    #management h3{
+        font-size: 2.7vw;
+    }
+    
+    #explore p{
+        font-size: 2vw;
+    }
+    
+    /*block-- 3 - 2*/
+
+    .Regular h1 span{
+        font-size: 3.5vw;
+    }
+    #sub2-content-list li span h3{
+        font-size: 2vw;
+    }
+    #sub2-content-list p{
+        font-size: 1.9vw;
+    }
+
+    /*block -- 4*/
+    #block4-note h1{
+        text-decoration: underline 0.1rem;
+        font-size: 3.5vw;
+        word-spacing: 0.3rem;
+    }
+
+    #block4-list li span{
+        font-size: 2.1vw;
+    }
+    #block4-list p{
+        font-size: 2.1vw;
+        margin-bottom: 0 !important;
+        margin-left: 2vw !important;
+        margin-top: 1.3vh;
+    }
+
+    /*queto-blocks*/
+    #quotes-block1{
+        border: 2px solid;
+        font-weight: bolder;
+        font-size: 0.5rem;
+        text-align: center;
+    }
+    #quotes-block2{
+        border: 2px solid;
+        font-weight: bolder;
+        font-size: 0.5rem;
+        text-align: center;
+    }
+
+    #quotes-block3{
+        border: 2px solid;
+        font-weight: bolder;
+        font-size: 0.5rem;
+        text-align: center;
+    }
+
+    #quotes-block4{
+        border: 2px solid;
+        font-weight: bolder;
+        /* font-size: 1vw; */
+        text-align: center;
+    }
+    #quotes-writer{
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .qt{
+        margin-bottom: 0;
+        font-size: 1.5vw;
+    }
+
+    /*footer block*/
+    footer p{
+        margin-bottom: 0;
+        font-size: 2.7vw;
+    }
+} 
+@media screen and (min-width: 550px) and (max-width: 800px) {
+    li{
+        height: 4vh;
+    } 
+  }
+
+/*media querry for 400px*/
+@media only screen and (max-width: 400px){
+    /*for block-2*/
+    .b2-2{
+        height: 27vh;
+    }
+    li{
+        height: 2.7vh;
+    } 
+    
+    #section-other-services h5{
+        font-size: 4vw;
+        text-decoration: underline 2px;
+    }
+    
+    ::marker {
+        font-size: 1.3vw;
+    }
+    
+    
+    #other-services li span{
+        font-size: 2vw;
+    }
+
+    /*----------------- table - start ------------------*/
+    #section-table{
+        width: 110%;
+    }
+
+    /*Table heading*/
+
+    .t-heading{
+        font-size: 2.7vw;
+    }
+
+    
+    .td-para{
+        margin-left: 3vw;
+        font-size: 1.9vw;
+    }
+    
+
+    /*lining inside the table*/
+    .hr{
+        width: 90%;
+        height: 2px !important;
+        margin: auto;
+    }
+    #custom-size-col1{
+        padding-left: 2vw !important;
+    }
+
+    #custom-size-col2{
+        padding-left: 5vw;
+    }
+
+    .td-value{
+        font-size: 2vw;
+    }
+    .td-yh{
+        font-size: 2.3vw;
+    }
+    /*------------------table - end---------------------*/
+
+    /*section after block-2*/
+    #Android-block ul{
+        list-style-position: inside;
+    }
+    
+    #Android-block ul li span{
+        margin-left: -5vw;
+        font-size: 2.6vw;
+        font-weight: 700;
+    }
+    
+    #Ethical-block ul li span{
+        margin-left: -5vw;
+        font-size: 2.8vw;
+        font-weight: 700;
+    }
+
+    /*block - 3 - 1*/
+    #swastik-college h1{
+        font-size: 3vw;
+    }
+    
+    #of h2{
+        font-size: 3vw;
+    }
+    #management h3{
+        font-size: 2.7vw;
+    }
+    
+    #explore p{
+        font-size: 2vw;
+    }
+    
+    /*block-- 3 - 2*/
+
+    .Regular h1 span{
+        font-size: 3.5vw;
+    }
+    #sub2-content-list li span h3{
+        font-size: 2vw;
+    }
+    #sub2-content-list p{
+        font-size: 1.9vw;
+    }
+
+    /*block -- 4*/
+    #block4-note h1{
+        text-decoration: underline 0.1rem;
+        font-size: 3.5vw;
+        word-spacing: 0.3rem;
+    }
+
+    #block4-list li span{
+        font-size: 2.1vw;
+    }
+    #block4-list p{
+        font-size: 2vw;
+        margin-top: 2.5vw !important;
+        margin-left: 2vw !important;
+        margin-top: 1.3vh;
+    }
+
+    /*queto-blocks*/
+    #quotes-block1{
+        border: 2px solid;
+        font-weight: bolder;
+        font-size: 0.5rem;
+        text-align: center;
+    }
+    #quotes-block2{
+        border: 2px solid;
+        font-weight: bolder;
+        font-size: 0.5rem;
+        text-align: center;
+    }
+
+    #quotes-block3{
+        border: 2px solid;
+        font-weight: bolder;
+        font-size: 0.5rem;
+        text-align: center;
+    }
+
+    #quotes-block4{
+        border: 2px solid;
+        font-weight: bolder;
+        font-size: 0.5rem;
+        text-align: center;
+    }
+    #quotes-writer{
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .qt{
+        margin-bottom: 0;
+    }
+
+    /*footer block*/
+    footer p{
+        margin-bottom: 0;
+        font-size: 2.7vw;
+    }
+
+} 
